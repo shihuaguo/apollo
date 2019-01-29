@@ -1,4 +1,7 @@
 #!/bin/bash
+export JAVA_HOME=/usr/local/jdk8
+#export CLASSPATH=$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/jre/lib/rt.jar
+export PATH=$PATH:$JAVA_HOME/bin
 SERVICE_NAME=apollo-portal
 ## Adjust log dir if necessary
 LOG_DIR=/opt/logs/100003173
